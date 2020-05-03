@@ -1,0 +1,435 @@
+/*
+Theme Name: Shadow Child
+Template: shadow
+Author: RubenBristian
+Version: 1.0
+Updated: 2014-11-01 14:31:33
+*/
+
+@charset "UTF-8";
+@import url('/wp-content/themes/shadow/style.css');
+
+/*264*/
+#custom-header {
+    height: 400px !important;
+}
+/*470*/
+.single-portfolio .content {
+    padding: 15px 0;
+}
+/*530*/
+.krown-button.empty {
+    border-color: #666;
+}
+/*789*/
+.krown-testimonial figcaption {
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    margin-top: 10px;
+    padding-top: 110px;
+}
+/*790*/
+.krown-testimonial figcaption:before {
+    font-size: 0;
+}
+/*1140*/
+h3.strike:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-top: 5px solid #eee;
+    width: 100%;
+    height: 0;
+    z-index: 1;
+    top: 13px;
+    left: 0;
+}
+/*1141*/
+h3.strike {
+    text-align: center;
+    position: relative;
+    margin: 30px 0 10px;
+}
+/*1142*/
+h3.strike span {
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+    font-size: 1.2em;
+    padding: 0 22px;
+}
+/*1143*/
+div.folio.like {
+    display: none;
+}
+/*1144*/
+.lets-get-started.krown-column-row {
+    background-attachment: scroll;
+    background-position: 0 -90px;
+    padding: 20px 0;
+}
+/*1145*/
+.full-width #content > .krown-column-row.the-home-header {
+    background-position: 0px 90px;
+    border-bottom: 1px solid #bbb;
+    padding: 0;
+}
+/*1146*/
+#tab-1405003986-1-96 figcaption {
+    background-image: url('/wp-content/uploads/2014/07/richard.png');
+}
+/*1147*/
+#tab-1405003986-2-96 figcaption {
+    background-image: url('/wp-content/uploads/2014/07/wolfgang.png');
+}
+/*1148*/
+#tab-1405010701581-2-10 figcaption {
+    background-image: url('/wp-content/uploads/2014/07/jackie.png');
+}
+/*1149*/
+.home .krown-testimonial blockquote {
+    min-height: 200px;
+}
+/*1150*/
+.krown-testimonial blockquote span {
+    font-size: 38px;
+    line-height: 46px;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+/*1151*/
+.disappear {
+    display: none !important;
+}
+/*1152*/
+.no-border {
+    border-bottom: 0 !important;
+}
+/*1153*/
+.services-for-photographers {
+    margin-top: -90px;
+}
+/*1154*/
+.services-photoshelter-integrations img {
+    width: 164px;
+    height: 62px;
+    margin-bottom: 44px;
+    margin-top: 68px;
+}
+/*1155*/
+.services-photoshelter-consultancy img {
+    width: 102px;
+    height: 86px;
+    margin-top: 51px;
+}
+/*1156*/
+.design-services img {
+    width: 20%;
+    height: auto;
+}
+/*1157*/
+.build-services img {
+    width: 20%;
+    height: auto;
+}
+/*1158*/
+.strategy-services img {
+    width: 20%;
+    height: auto;
+}
+/*1159*/
+.col1 img {
+    width: 28%;
+    margin-bottom: -10px;
+    margin-top: 46px;
+}
+/*1160*/
+.col2 img {
+    width: 25%;
+    margin-top: 46px;
+    margin-bottom: -14px;
+}
+/*1161*/
+.col3 img {
+    width: 25%;
+    margin-top: 49px;
+    margin-bottom: -18px;
+}
+/*1162*/
+.span8 img.krown-single-image {
+    margin-bottom: 50px;
+}
+/*1163*/
+.single-portfolio .span8 {
+    padding-right: 30px;
+}
+/*1164*/
+.single-portfolio .span8 img, .single-portfolio .big-slider img, .single-portfolio .span12 img {
+    box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.7);;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+/*1165*/
+.single-portfolio .big-slider, .single-portfolio .span12 {
+    padding-right: 10px;
+}
+/*1166*/
+.single-portfolio .row-content .span12 .krown-single-image {
+    margin-top: -50px;
+}
+/*1167*/
+.reverse .krown-button.empty:hover {
+    background-color: #333;
+}
+/*1168*/
+.the-home-header .krown-button {
+    margin-bottom: 10px;
+}
+/*1170*/
+.col1 {
+    position: relative;
+    top: 13px;
+}
+/*1178*/
+.photographer-header {
+    min-height: 510px;
+    background-position: 77% 13%;
+    background-attachment: scroll !important;
+    background-size: initial !important;
+    padding-top: 0;
+}
+/*1179*/
+.contact-section {
+    background-attachment: scroll !important;
+}
+/*1180*/
+section.photoshelter-consultant div.isotope-item:nth-child(-n+3) {
+    display: none;
+}
+/*1181*/
+section.photoshelter-consultant div.isotope-item:nth-child(n+4) {
+    top: 0 !important;
+}
+/*1182*/
+section.photoshelter-consultant div.isotope {
+    height: 456px !important;
+}
+/*1186*/
+.header p {
+    font-size: 1.15em;
+    margin-bottom: 23px;
+}
+/*1187*/
+.header.reverse p, .header.reverse h1 {
+    color: #fff;
+}
+/*1190*/
+.the-home-header.header.reverse p {
+    width: 100%;
+    margin: 18px auto 9px;
+}
+/*1192*/
+.photographer-header.submenu {
+    background-position: 77% 20%;
+}
+/*1193*/
+.submenu h1 {
+    margin-top: 60px;
+}
+/*1194*/
+.icon-block img {
+    position: xrelative;
+    top: -x10px;
+}
+/*1196*/
+.icon-block .wpb_wrapper strong {
+    font-size: 0.98em;
+    color: #b64730;
+}
+/*1197*/
+.icon-block img.alignleft.size-full {
+    margin-left: 0;
+    margin-bottom: 5px;
+    margin-right: 8px;
+}
+/*1199*/
+.icon-block strong p {
+    position: relative;
+    top: 10px;
+}
+/*1200*/
+.icon-text {
+    margin-top: 26px;
+}
+/*1206*/
+.magnify .span6 .wpb_wrapper {
+    padding-right: 6em;
+}
+/*1207*/
+.magnify .wpb_wrapper h6 {
+    font-weight: normal;
+    font-size: 0.90em;
+    margin-bottom: -30px;
+}
+/*1209*/
+.magnify {
+    padding-top: 30px !important;
+}
+/*1210*/
+.magnify li {
+    list-style-image: url('/wp-content/uploads/2014/04/bullet.png');
+    margin-bottom: 8px;
+    margin-left: 1px;
+}
+/*1213*/
+.magnify.steve .span6 img.krown-single-image {
+    max-width: 105%;
+}
+/*1215*/
+.testimonial-wrapper::before {
+    content: "";
+    position: absolute;
+    z-index: 10000;
+}
+/*1216*/
+.testimonial-wrapper::after {
+    content: "";
+    position: absolute;
+}
+/*1217*/
+p.testimonial {
+    border: solid 2px #bc4730;
+    width: 74.2%;
+    font-size: 0.9em;
+    font-weight: 500;
+    border-radius: 5px;
+    line-height: 1.5em;
+    padding: 10px;
+}
+/*1218*/
+.testimonial-wrapper.from-bottom p.testimonial {
+    width: 100%;
+}
+/*1219*/
+.testimonial-wrapper.from-bottom::before {
+    top: 53%;
+    left: 48.2%;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid white;
+    margin-top: -12.6px;
+}
+/*1220*/
+.testimonial-wrapper.from-right::before {
+    top: 50%;
+    left: 73.4%;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 12px solid white;
+    margin-top: -12px;
+}
+/*1221*/
+.testimonial-wrapper.from-bottom::after {
+    top: 53%;
+    left: 48%;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-top: 13px solid #bc4730;
+    margin-top: -11px;
+}
+/*1222*/
+.testimonial-wrapper.from-right::after {
+    top: 50%;
+    left: 73.8%;
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+    border-left: 13px solid #bc4730;
+    margin-top: -13px;
+}
+/*1223*/
+.testimonial-wrapper {
+    position: relative;
+    margin: 0 auto;
+}
+/*1224*/
+.testimonial-wrapper.from-right {
+    left: 23px;
+    bottom: 20px;
+    max-width: 473px;
+    min-width: 434px;
+}
+/*1225*/
+.testimonial-wrapper.from-bottom {
+    bottom: 37px;
+    width: 360px;
+    height: 200px;
+    margin-bottom: -140px;
+}
+/*1226*/
+.testimonial-wrapper.from-right img {
+    width: 100px;
+    float: right;
+}
+/*1227*/
+.testimonial-wrapper.from-bottom img {
+    width: 55px;
+    position: relative;
+    left: 44%;
+    top: 2px;
+}
+/*1228*/
+p.testimonial span {
+    color: #bc4730;
+    display: block;
+    text-align: right;
+}
+/*1229*/
+.header a.krown-button {
+    margin-top: 20px;
+}
+@media all and (min-width: 1160px) {
+/*1211*/
+.magnify .span6 img.krown-single-image {
+    max-width: 123%;
+    margin-bottom: 0;
+}
+/*1212*/
+.magnify.onelove .span6 img.krown-single-image {
+    max-width: 115.5%;
+}
+}
+@media (min-width: 1160px) {
+/*1171*/
+.portfolio-item.classic .category {
+    width: 350px;
+    height: 90px;
+}
+/*1172*/
+.single-portfolio .span4 {
+    text-align: right;
+}
+/*1173*/
+#secondary-header {
+    height: 90px !important;
+}
+/*1174*/
+#logo {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+/*1175*/
+.top-menu > li > a {
+    padding: 38px 50px 40px 0;
+}
+/*1176*/
+.header-content .wrapper {
+    height: 90px;
+}
+/*1177*/
+#main-menu {
+    height: 90px !important;
+}
+}
